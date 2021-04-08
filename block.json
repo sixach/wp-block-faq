@@ -1,0 +1,32 @@
+{
+	"apiVersion": 2,
+	"name": "sixa/faq",
+	"title": "FAQ",
+	"category": "widgets",
+	"icon": "smiley",
+	"description": "FAQ block for WordPress editor.",
+	"supports": {
+		"html": false
+	},
+	"attributes": {
+		"number": {
+			"type": "number",
+			"default": 2
+		},
+		"category": {
+			"type": "string"
+		},
+		"order": {
+			"type": "string",
+			"default": "desc"
+		},
+		"orderBy": {
+			"type": "string",
+			"default": "date"
+		}
+	},
+	"textdomain": "sixa-wp-block-faq",
+	"editorScript": "file:./build/index.js",
+	"editorStyle": "file:./build/index.css",
+	"style": "file:./build/style-index.css"
+}

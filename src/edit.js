@@ -159,7 +159,7 @@ export default function Edit( props ) {
 					</>
 				) }
 			</div>
-			{ isSelected && <Inspector { ...props } havePosts={ havePosts } getPosts={ getPosts } categoriesList={ categoriesList } /> }
+			{ isSelected && <Inspector { ...props } categoriesList={ categoriesList } /> }
 		</>
 	);
 }

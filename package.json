@@ -65,11 +65,9 @@
 		"husky": "^4.3.8",
 		"lint-staged": "^10.5.4",
 		"lodash": "^4.17.21",
-		"postcss-import": "^12.0.1",
 		"postcss-loader": "^3.0.0",
 		"postcss-nested": "^4.2.1",
 		"postcss-nested-ancestors": "^2.0.0",
-		"postcss-position": "^1.1.0",
 		"postcss-selector-replace": "^1.0.2"
 	}
 }

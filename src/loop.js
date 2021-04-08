@@ -25,6 +25,14 @@ import { __ } from '@wordpress/i18n';
 import { RawHTML } from '@wordpress/element';
 
 /**
+ * This packages includes a library of generic WordPress components to be used for
+ * creating common UI elements shared between screens and features of the WordPress dashboard.
+ *
+ * @see https://developer.wordpress.org/block-editor/reference-guides/packages/packages-components/
+ */
+import { Disabled } from '@wordpress/components';
+
+/**
  * Constants.
  */
 const CLASSNAME = blockClassName( 'faq' );
@@ -46,9 +54,9 @@ export default function Loop( { getPosts } ) {
 					<summary className={ `${ CLASSNAME }__title` }>
 						<RawHTML>{ generateFormattedContent( get( post, 'title.rendered' ) ) || __( '(no title)', 'sixa' ) }</RawHTML>
 					</summary>
-					<RawHTML key="html" className={ `${ CLASSNAME }__content` }>
-						{ invoke( post, [ 'content', 'raw', 'trim' ] ) }
-					</RawHTML>
+					<Disabled className={ `${ CLASSNAME }__content` }>
+						<RawHTML key="html">{ invoke( post, [ 'content', 'raw', 'trim' ] ) }</RawHTML>
+					</Disabled>
 				</details>
 			) ) }
 		</>

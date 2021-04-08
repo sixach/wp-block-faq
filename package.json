@@ -52,7 +52,8 @@
 		"@wordpress/element": "^2.20.0",
 		"@wordpress/hooks": "^2.12.0",
 		"@wordpress/i18n": "^3.19.0",
-		"@wordpress/url": "^2.22.1"
+		"@wordpress/url": "^2.22.1",
+		"rename-keys": "^2.0.1"
 	},
 	"devDependencies": {
 		"@babel/plugin-proposal-class-properties": "^7.12.1",

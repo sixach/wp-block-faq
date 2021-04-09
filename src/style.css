@@ -15,12 +15,12 @@
 	}
 
 	&__content {
-		animation: [prefix]-fade 1s linear;
+		animation: fade 1s linear;
 
 	}
 }
 
-@keyframes [prefix]-fade {
+@keyframes fade {
 
 	0% {
 		opacity: 0;

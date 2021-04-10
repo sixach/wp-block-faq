@@ -4,6 +4,9 @@ module.exports = {
 			before: [ '[prefix]' ],
 			after: [ 'sixa' ],
 		},
+		'postcss-prefixer-keyframes': {
+			prefix: [ 'sixa-' ],
+		},
 		'postcss-nested-ancestors': {},
 		'postcss-nested': {},
 		autoprefixer: { grid: true },

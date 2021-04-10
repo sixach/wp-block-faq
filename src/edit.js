@@ -6,7 +6,7 @@ import { get, set, isArray, pickBy, identity } from 'lodash';
 /**
  * Utility helper methods specific for Sixa projects.
  */
-import { LoadingSpinner, normalizeArray } from '@sixa/wp-block-utils';
+import { LoadingSpinner, isNonEmptyArray } from '@sixa/wp-block-utils';
 
 /**
  * Utility to make WordPress REST API requests. It's a wrapper around `window.fetch`.
@@ -113,7 +113,7 @@ export default function Edit( props ) {
 			);
 
 			return {
-				havePosts: normalizeArray( wpQuery ),
+				havePosts: isNonEmptyArray( wpQuery ),
 				getPosts: wpQuery,
 			};
 		},

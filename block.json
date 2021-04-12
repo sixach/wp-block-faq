@@ -5,6 +5,11 @@
 	"category": "widgets",
 	"icon": "editor-help",
 	"description": "FAQ block for WordPress editor.",
+	"keywords": [
+		"sixa",
+		"questions",
+		"accordion"
+	],
 	"supports": {
 		"html": false
 	},

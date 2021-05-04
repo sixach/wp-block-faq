@@ -1,3 +1,15 @@
+# Editors
+project.xml
+project.properties
+/nbproject/private/
+.buildpath
+.project
+.settings*
+.idea
+*.sublime-project
+*.sublime-workspace
+.sublimelinterrc
+
 # Logs
 logs
 *.log

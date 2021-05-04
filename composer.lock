@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:sixach/sixa-wp-snippets.git",
-                "reference": "658eee06aa731ed1681e4613b2a3de9b0010af33"
+                "reference": "402df0d910204f6ca9f3a1a7f96a0a1801650b61"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sixach/sixa-wp-snippets/zipball/658eee06aa731ed1681e4613b2a3de9b0010af33",
-                "reference": "658eee06aa731ed1681e4613b2a3de9b0010af33",
+                "url": "https://api.github.com/repos/sixach/sixa-wp-snippets/zipball/402df0d910204f6ca9f3a1a7f96a0a1801650b61",
+                "reference": "402df0d910204f6ca9f3a1a7f96a0a1801650b61",
                 "shasum": ""
             },
             "require": {
@@ -72,7 +72,7 @@
                 "source": "https://github.com/sixach/sixa-wp-snippets/tree/composer-base-structure",
                 "issues": "https://github.com/sixach/sixa-wp-snippets/issues"
             },
-            "time": "2021-05-04T20:02:40+00:00"
+            "time": "2021-05-04T22:01:05+00:00"
         }
     ],
     "packages-dev": [

@@ -25,7 +25,7 @@
 		"lint:php": "@php ./vendor/bin/parallel-lint --exclude .git --exclude vendor --exclude node_modules ."
 	},
 	"require": {
-	  	"sixa/sixa-snippets": "dev-composer-base-structure"
+	  	"sixa/wp-snippets": "dev-main"
 	},
 	"repositories": [
 		{

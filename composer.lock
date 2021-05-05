@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b834b47f856117037b9cf42617be7743",
+    "content-hash": "7d8bbbc703f50d6b9853d0589b524bad",
     "packages": [
         {
-            "name": "sixa/sixa-snippets",
-            "version": "dev-composer-base-structure",
+            "name": "sixa/wp-snippets",
+            "version": "dev-main",
             "source": {
                 "type": "git",
                 "url": "git@github.com:sixach/sixa-wp-snippets.git",
-                "reference": "402df0d910204f6ca9f3a1a7f96a0a1801650b61"
+                "reference": "894c2a8525f9a86badd0392912f5aca057f8cbcc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sixach/sixa-wp-snippets/zipball/402df0d910204f6ca9f3a1a7f96a0a1801650b61",
-                "reference": "402df0d910204f6ca9f3a1a7f96a0a1801650b61",
+                "url": "https://api.github.com/repos/sixach/sixa-wp-snippets/zipball/894c2a8525f9a86badd0392912f5aca057f8cbcc",
+                "reference": "894c2a8525f9a86badd0392912f5aca057f8cbcc",
                 "shasum": ""
             },
             "require": {
@@ -33,6 +33,7 @@
                 "wp-cli/i18n-command": "^2.2.6",
                 "wp-coding-standards/wpcs": "^2.3.0"
             },
+            "default-branch": true,
             "type": "wordpress-plugin",
             "autoload": {
                 "psr-4": {
@@ -69,10 +70,10 @@
                 "WordPress"
             ],
             "support": {
-                "source": "https://github.com/sixach/sixa-wp-snippets/tree/composer-base-structure",
+                "source": "https://github.com/sixach/sixa-wp-snippets/tree/main",
                 "issues": "https://github.com/sixach/sixa-wp-snippets/issues"
             },
-            "time": "2021-05-04T22:01:05+00:00"
+            "time": "2021-05-05T20:58:18+00:00"
         }
     ],
     "packages-dev": [
@@ -2859,7 +2860,7 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "sixa/sixa-snippets": 20
+        "sixa/wp-snippets": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,

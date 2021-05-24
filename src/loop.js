@@ -55,7 +55,7 @@ export default function Loop( { getPosts } ) {
 						<RawHTML>{ generateFormattedContent( get( post, 'title.rendered' ) ) || __( '(no title)', 'sixa' ) }</RawHTML>
 					</summary>
 					<Disabled className={ `${ CLASSNAME }__content` }>
-						<RawHTML key="html">{ invoke( post, [ 'content', 'raw', 'trim' ] ) }</RawHTML>
+						<RawHTML key="html">{ invoke( post, [ 'content', 'rendered', 'trim' ] ) }</RawHTML>
 					</Disabled>
 				</details>
 			) ) }

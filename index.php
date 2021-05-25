@@ -41,25 +41,6 @@ function register_post_types() {
 	new \SixaSnippets\Dashboard\Post_Type(
 		array(
 			array(
-				'key'           => 'team-member',
-				'singular_name' => __( 'Team Member', 'sixa-extras' ),
-				'plural_name'   => __( 'Team Members', 'sixa-extras' ),
-				'args'          => array(
-					'publicly_queryable' => false,
-					'menu_icon'          => 'dashicons-buddicons-buddypress-logo',
-					'template'           => array( array( 'sixa-extras/team' ) ),
-					'template_lock'      => true,
-				),
-				'taxonomies'    => array(
-					array(
-						'key'  => 'team-member-category',
-						'args' => array(
-							'publicly_queryable' => false,
-						),
-					),
-				),
-			),
-			array(
 				'key'           => 'faq-item',
 				'singular_name' => __( 'FAQ Item', 'sixa-extras' ),
 				'plural_name'   => __( 'FAQ Items', 'sixa-extras' ),

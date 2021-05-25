@@ -2,7 +2,7 @@
 /**
  * Plugin Name:     Sixa - F.A.Q
  * Description:     FAQ block for WordPress editor.
- * Version:         0.1.0
+ * Version:         1.0.0
  * Author:          sixa AG
  * License:         GPL-3.0-or-later
  * License URI:     https://www.gnu.org/licenses/gpl-3.0.html

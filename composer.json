@@ -30,7 +30,7 @@
 	"repositories": [
 		{
 		  "type": "vcs",
-		  "url":  "git@github.com:sixach/sixa-wp-snippets.git"
+		  "url":  "git@github.com:sixach/wp-snippets.git"
 		}
 	]
 }

@@ -1,18 +1,18 @@
 {
 	"name": "@sixa/faq",
-	"version": "0.1.0",
+	"version": "1.0.0",
 	"description": "FAQ block for WordPress editor.",
 	"keywords": [
 		"questions",
 		"accordion"
 	],
-	"homepage": "https://github.com/sixach/sixa-wp-block-faq#readme",
+	"homepage": "https://github.com/sixach/wp-block-faq#readme",
 	"bugs": {
-		"url": "https://github.com/sixach/sixa-wp-block-faq/issues"
+		"url": "https://github.com/sixach/wp-block-faq/issues"
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/sixach/sixa-wp-block-faq.git"
+		"url": "git+https://github.com/sixach/wp-block-faq.git"
 	},
 	"license": "GPL-3.0-or-later",
 	"author": "sixa AG",

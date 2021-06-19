@@ -18,7 +18,6 @@ import './style.css';
  * Internal dependencies
  */
 import Edit from './edit';
-import save from './save';
 
 /**
  * Every block starts by registering a new block type definition.
@@ -35,9 +34,4 @@ registerBlockType( 'sixa/faq', {
 	 * @see ./edit.js
 	 */
 	edit: Edit,
-
-	/**
-	 * @see ./save.js
-	 */
-	save,
 } );

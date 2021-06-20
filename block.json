@@ -6,31 +6,38 @@
 	"icon": "editor-help",
 	"description": "FAQ block for WordPress editor.",
 	"keywords": [
-		"sixa",
+		"faq",
 		"questions",
+		"answers",
 		"accordion"
 	],
 	"supports": {
 		"html": false
 	},
 	"attributes": {
-		"number": {
+		"ids": {
+			"type": "array",
+			"default": []
+		},
+		"limit": {
 			"type": "number",
-			"default": 2
+			"default": 3
 		},
 		"category": {
-			"type": "string"
+			"type": "string",
+			"default": ""
 		},
 		"order": {
 			"type": "string",
-			"default": "desc"
+			"default": "asc"
 		},
-		"orderBy": {
+		"orderby": {
 			"type": "string",
-			"default": "date"
+			"default": "title"
 		}
 	},
 	"textdomain": "sixa-wp-block-faq",
 	"editorScript": "file:./build/index.js",
+	"editorStyle": "file:./build/index.css",
 	"style": "file:./build/style-index.css"
 }

@@ -4,7 +4,7 @@
  *
  * @since       1.0.0
  * @package     sixa
- * @phpcs:disable WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedHooknameFound
+ * @phpcs:disable WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedHooknameFound, WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedVariableFound
  */
 
 namespace SixaFaqBlock\templates;
@@ -20,6 +20,6 @@ $class_name = $args['class_name'] ?? '';
 		<?php echo esc_html( get_the_title( $faq_post ) ); ?>
 	</summary>
 	<div class="<?php echo sanitize_html_class( $class_name ); ?>__content">
-		<?php echo wp_filter_post_kses( apply_filters( 'the_content', $faq_post->post_content ) ); ?>
+		<?php echo apply_filters( 'the_content', $faq_post->post_content ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?>
 	</div>
 </details>

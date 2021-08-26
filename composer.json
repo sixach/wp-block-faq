@@ -40,8 +40,5 @@
 	},
 	"autoload": {
 		"files": ["block.php"]
-	},
-	"extra": {
-
 	}
 }

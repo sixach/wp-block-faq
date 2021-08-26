@@ -1,6 +1,6 @@
 {
 	"name": "sixa/wp-block-faq",
-	"type": "wordpress-plugin",
+	"type": "wordpress-block",
 	"description": "FAQ block for WordPress editor.",
 	"keywords": [
 		"faq",
@@ -40,5 +40,8 @@
 	},
 	"autoload": {
 		"files": ["block.php"]
+	},
+	"extra": {
+
 	}
 }

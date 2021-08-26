@@ -29,7 +29,7 @@ defined( 'ABSPATH' ) || exit; // Exit if accessed directly.
  *
  * @see     https://getcomposer.org/doc/01-basic-usage.md#autoloading
  */
-require __DIR__ . '/vendor/autoload.php';
+require 'vendor/autoload.php';
 
 /**
  * Registers the block using the metadata loaded from the `block.json` file.

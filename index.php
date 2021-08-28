@@ -26,5 +26,9 @@ defined( 'ABSPATH' ) || exit; // Exit if accessed directly.
  */
 require __DIR__ . '/vendor/autoload.php';
 
+/**
+ * Require the block initialization file that contains all block features
+ * as well as block registration and asset management.
+ */
 require_once sprintf( '%sblock.php', plugin_dir_path( __FILE__ ) );
 

@@ -4,9 +4,9 @@
  * and features such as block registration and render callbacks.
  * The block is fully installed if this file is imported.
  *
- * @link    https://sixa.ch
- * @author    sixa AG
- * @since     1.1.0
+ * @link       https://sixa.ch
+ * @author     sixa AG
+ * @since      1.1.0
  * @package    SixaFAQBlock
  */
 

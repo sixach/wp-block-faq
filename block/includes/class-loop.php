@@ -47,8 +47,6 @@ if ( ! class_exists( 'Loop' ) ) :
 		public function __construct( array $attributes = array(), string $class_name = '' ) {
 			$this->attributes = $attributes;
 			$this->class_name = $class_name;
-
-			print untrailingslashit( plugin_dir_path( __DIR__ ) ) . '/templates/content-faq-item.php';
 		}
 
 		/**

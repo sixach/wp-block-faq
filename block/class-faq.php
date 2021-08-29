@@ -29,7 +29,6 @@ class FAQ {
 	 */
 	public static function register(): void {
 		FAQ::register_post_type();
-		$a = new Loop();
 		register_block_type_from_metadata(
 			dirname( __DIR__ ),
 			array(

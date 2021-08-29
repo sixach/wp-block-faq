@@ -48,8 +48,7 @@ if ( ! class_exists( 'Loop' ) ) :
 			$this->attributes = $attributes;
 			$this->class_name = $class_name;
 
-			print untrailingslashit( dirname( __FILE__ ) ) . '/templates/content-faq-item.php';
-			exit();
+			print untrailingslashit( plugin_dir_path( __DIR__ ) ) . '/templates/content-faq-item.php';
 		}
 
 		/**

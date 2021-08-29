@@ -18,7 +18,7 @@
 	],
 	"require": {
 		"php": ">=7.2",
-		"sixa/wp-snippets": "dev-main"
+		"sixa/wp-snippets": "dev-bundle"
 	},
 	"repositories": [
 		{

@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "30bd7212022e93b1a4bd7b3a3e7ccf43",
+    "content-hash": "572858fa529f8e651eb847ae393844c1",
     "packages": [
         {
             "name": "sixa/wp-snippets",
-            "version": "dev-main",
+            "version": "dev-bundle",
             "source": {
                 "type": "git",
                 "url": "git@github.com:sixach/wp-snippets.git",
-                "reference": "a622e96e952588f58144506bc962de4b5d448f11"
+                "reference": "b1a67e004a9eb1e5f5953d40f31a7c5a9cccb560"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sixach/wp-snippets/zipball/a622e96e952588f58144506bc962de4b5d448f11",
-                "reference": "a622e96e952588f58144506bc962de4b5d448f11",
+                "url": "https://api.github.com/repos/sixach/wp-snippets/zipball/b1a67e004a9eb1e5f5953d40f31a7c5a9cccb560",
+                "reference": "b1a67e004a9eb1e5f5953d40f31a7c5a9cccb560",
                 "shasum": ""
             },
             "require": {
@@ -33,12 +33,11 @@
                 "wp-cli/i18n-command": "^2.2.6",
                 "wp-coding-standards/wpcs": "^2.3.0"
             },
-            "default-branch": true,
             "type": "wordpress-plugin",
             "autoload": {
-                "psr-4": {
-                    "SixaSnippets\\": "src/"
-                }
+                "classmap": [
+                    "src"
+                ]
             },
             "scripts": {
                 "lint:wpcs": [
@@ -70,10 +69,10 @@
                 "WordPress"
             ],
             "support": {
-                "source": "https://github.com/sixach/wp-snippets/tree/main",
+                "source": "https://github.com/sixach/wp-snippets/tree/bundle",
                 "issues": "https://github.com/sixach/wp-snippets/issues"
             },
-            "time": "2021-08-25T19:57:48+00:00"
+            "time": "2021-08-29T20:34:40+00:00"
         }
     ],
     "packages-dev": [

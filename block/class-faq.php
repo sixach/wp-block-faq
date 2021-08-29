@@ -14,7 +14,7 @@
 namespace Sixa_Blocks;
 
 use Sixa_Blocks\FAQ\Includes\Loop;
-use SixaSnippets\Dashboard\Post_Type as Post_Type;
+use Sixa_Snippets\Dashboard\Post_Type as Post_Type;
 
 /**
  * Block Class FAQ

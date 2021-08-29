@@ -1,10 +1,24 @@
 <?php
+/**
+ * Block class file. Contains all relevant functions
+ * and features such as block registration and render callbacks.
+ *
+ * @link          https://sixa.ch
+ * @author        sixa AG
+ * @since         1.1.0
+ *
+ * @package       Sixa_Blocks
+ * @subpackage    Sixa_Blocks\FAQ
+ */
 
 namespace Sixa_Blocks;
 
 use Sixa_Blocks\FAQ\Includes\Loop;
 use SixaSnippets\Dashboard\Post_Type as Post_Type;
 
+/**
+ * Block Class FAQ
+ */
 class FAQ {
 
 	/**
@@ -28,7 +42,7 @@ class FAQ {
 	 * @return    void
 	 */
 	public static function register(): void {
-		FAQ::register_post_type();
+		self::register_post_type();
 		register_block_type_from_metadata(
 			dirname( __DIR__ ),
 			array(

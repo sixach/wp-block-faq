@@ -46,7 +46,7 @@
 		]
 	},
 	"dependencies": {
-		"@sixach/wp-block-components": "^1.1.0",
+		"@sixach/wp-block-components": "^1.4.2",
 		"@wordpress/api-fetch": "^5.2.1",
 		"@wordpress/block-editor": "^7.0.1",
 		"@wordpress/blocks": "^11.0.1",

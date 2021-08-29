@@ -6,7 +6,7 @@
  * @package         sixa/includes
  */
 
-namespace SixaFaqBlock\Includes;
+namespace Sixa_Blocks\FAQ\Includes;
 
 // Exit if accessed directly.
 if ( ! defined( 'ABSPATH' ) ) {
@@ -47,6 +47,9 @@ if ( ! class_exists( 'Loop' ) ) :
 		public function __construct( array $attributes = array(), string $class_name = '' ) {
 			$this->attributes = $attributes;
 			$this->class_name = $class_name;
+
+			print untrailingslashit( dirname( __FILE__ ) ) . '/templates/content-faq-item.php';
+			exit();
 		}
 
 		/**

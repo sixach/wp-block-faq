@@ -39,6 +39,6 @@
 		"lint:php": "@php ./vendor/bin/parallel-lint --exclude .git --exclude vendor --exclude node_modules ."
 	},
 	"autoload": {
-		"files": ["block.php"]
+		"classmap": ["block"]
 	}
 }

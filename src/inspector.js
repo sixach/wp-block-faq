@@ -11,7 +11,7 @@ import { MultiSelect } from '@sixach/wp-block-components';
 /**
  * Utility helper methods specific for Sixa projects.
  */
-import { isNonEmptyArray } from '@sixach/wp-block-utils';
+import { isNonEmptyArray } from '@sixa/wp-block-utils';
 
 /**
  * Retrieves the translation of text.

@@ -1,9 +1,11 @@
+$prefix: sixa;
+
 /**
  * The following styles get applied both on the front of your site
  * and in the editor.
  */
 
-.wp-block-[prefix]-faq {
+.wp-block-#{$prefix}-faq {
 
 	&__title {
 		list-style: none;

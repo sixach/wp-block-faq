@@ -1,5 +1,5 @@
 {
-	"name": "sixa/wp-block-faq",
+	"name": "sixach/wp-block-faq",
 	"type": "wordpress-block",
 	"description": "FAQ block for WordPress editor.",
 	"keywords": [
@@ -18,7 +18,7 @@
 	],
 	"require": {
 		"php": ">=7.2",
-		"sixa/wp-snippets": "dev-bundle"
+		"sixach/wp-snippets": "^1.1.0"
 	},
 	"repositories": [
 		{

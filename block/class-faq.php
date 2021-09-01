@@ -56,9 +56,9 @@ class FAQ {
 	/**
 	 * Renders the `sixa/faq` block on server.
 	 *
-	 * @since   1.0.0
-	 * @param   array $attributes        The block attributes.
-	 * @return  string
+	 * @since     1.0.0
+	 * @param     array $attributes    The block attributes.
+	 * @return    string
 	 */
 	public static function render( array $attributes = array() ): string {
 		$wrapper_attributes = get_block_wrapper_attributes();
@@ -75,7 +75,9 @@ class FAQ {
 	/**
 	 * Registers the custom post-type required for this block.
 	 *
-	 * @see https://sixach.github.io/sixa-wp-snippets/#/dashboard/post-type
+	 * @see 	  https://sixach.github.io/sixa-wp-snippets/#/dashboard/post-type
+	 * @since     1.0.0
+	 * @return    void
 	 */
 	public static function register_post_type(): void {
 		new Post_Type(

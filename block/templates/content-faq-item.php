@@ -7,7 +7,7 @@
  * @phpcs:disable WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedHooknameFound, WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedVariableFound
  */
 
-namespace SixaFaqBlock\templates;
+namespace Sixa_Blocks\FAQ\Templates;
 
 defined( 'ABSPATH' ) || exit;
 

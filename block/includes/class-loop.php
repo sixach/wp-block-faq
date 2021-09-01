@@ -6,7 +6,7 @@
  * @package         sixa/includes
  */
 
-namespace SixaFaqBlock\Includes;
+namespace Sixa_Blocks\FAQ\Includes;
 
 // Exit if accessed directly.
 if ( ! defined( 'ABSPATH' ) ) {

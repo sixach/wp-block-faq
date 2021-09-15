@@ -1,6 +1,6 @@
 {
 	"name": "@sixach/wp-block-faq",
-	"version": "1.2.0",
+	"version": "1.1.0",
 	"description": "FAQ block for WordPress editor.",
 	"keywords": [
 		"faq",
@@ -31,7 +31,8 @@
 		"lint:php": "composer lint:php",
 		"lint:wpcs": "composer lint:wpcs",
 		"lint:wpcs-fix": "composer lint:wpcbf",
-		"packages-update": "wp-scripts packages-update"
+		"packages-update": "wp-scripts packages-update",
+		"prepare": "husky install"
 	},
 	"lint-staged": {
 		"*.css": [

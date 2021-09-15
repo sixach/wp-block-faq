@@ -14,7 +14,7 @@
  * License URI:          https://www.gnu.org/licenses/gpl-3.0.html
  * Text Domain:          sixa
  *
- * @package              sixa
+ * @package              Sixa_Blocks
  */
 
 defined( 'ABSPATH' ) || exit; // Exit if accessed directly.

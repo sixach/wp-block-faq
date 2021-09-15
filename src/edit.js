@@ -16,14 +16,14 @@ import { isNonEmptyArray, blockClassName, selectOptions } from '@sixa/wp-block-u
 /**
  * Retrieves the translation of text.
  *
- * @see     https://developer.wordpress.org/block-editor/packages/packages-i18n/
+ * @see    https://developer.wordpress.org/block-editor/packages/packages-i18n/
  */
 import { __ } from '@wordpress/i18n';
 
 /**
  * Utility to make WordPress REST API requests. It's a wrapper around `window.fetch`.
  *
- * @see     https://github.com/WordPress/gutenberg/blob/trunk/packages/api-fetch/README.md
+ * @see    https://github.com/WordPress/gutenberg/blob/trunk/packages/api-fetch/README.md
  */
 import apiFetch from '@wordpress/api-fetch';
 
@@ -31,14 +31,14 @@ import apiFetch from '@wordpress/api-fetch';
  * This packages includes a library of generic WordPress components to be used for
  * creating common UI elements shared between screens and features of the WordPress dashboard.
  *
- * @see     https://developer.wordpress.org/block-editor/reference-guides/packages/packages-components/
+ * @see    https://developer.wordpress.org/block-editor/reference-guides/packages/packages-components/
  */
 import { addQueryArgs } from '@wordpress/url';
 
 /**
  * WordPress specific abstraction layer atop React.
  *
- * @see     https://github.com/WordPress/gutenberg/tree/HEAD/packages/element/README.md
+ * @see    https://github.com/WordPress/gutenberg/tree/HEAD/packages/element/README.md
  */
 import { useState, useEffect, useRef, useMemo } from '@wordpress/element';
 
@@ -46,7 +46,7 @@ import { useState, useEffect, useRef, useMemo } from '@wordpress/element';
  * Data module to manage application state for both plugins and WordPress itself.
  * The data module is built upon and shares many of the same core principles of Redux.
  *
- * @see     https://github.com/WordPress/gutenberg/tree/HEAD/packages/data/README.md
+ * @see    https://github.com/WordPress/gutenberg/tree/HEAD/packages/data/README.md
  */
 import { useDispatch } from '@wordpress/data';
 
@@ -54,7 +54,7 @@ import { useDispatch } from '@wordpress/data';
  * The compose package is a collection of handy Hooks and Higher Order Components (HOCs).
  * The compose function is an alias to `flowRight` from Lodash.
  *
- * @see  	https://github.com/WordPress/gutenberg/blob/trunk/packages/compose/README.md
+ * @see    https://github.com/WordPress/gutenberg/blob/trunk/packages/compose/README.md
  */
 import { compose, withInstanceId, withState } from '@wordpress/compose';
 
@@ -62,7 +62,7 @@ import { compose, withInstanceId, withState } from '@wordpress/compose';
  * EventManager for JavaScript.
  * Hooks are used to manage component state and lifecycle.
  *
- * @see  	https://github.com/WordPress/gutenberg/blob/trunk/packages/hooks/README.md
+ * @see    https://github.com/WordPress/gutenberg/blob/trunk/packages/hooks/README.md
  */
 import { applyFilters } from '@wordpress/hooks';
 
@@ -70,7 +70,7 @@ import { applyFilters } from '@wordpress/hooks';
  * React hook that is used to mark the block wrapper element.
  * It provides all the necessary props like the class name.
  *
- * @see  	https://developer.wordpress.org/block-editor/packages/packages-block-editor/#useBlockProps
+ * @see    https://developer.wordpress.org/block-editor/packages/packages-block-editor/#useBlockProps
  */
 import { useBlockProps } from '@wordpress/block-editor';
 
@@ -78,7 +78,7 @@ import { useBlockProps } from '@wordpress/block-editor';
  * This packages includes a library of generic WordPress components to be used for
  * creating common UI elements shared between screens and features of the WordPress dashboard.
  *
- * @see  	https://developer.wordpress.org/block-editor/reference-guides/packages/packages-components/
+ * @see    https://developer.wordpress.org/block-editor/reference-guides/packages/packages-components/
  */
 import { Notice } from '@wordpress/components';
 
@@ -101,9 +101,9 @@ import styles from './editor.module.css';
  * The edit function describes the structure of your block in the context of the
  * editor. This represents what the editor will render when the block is used.
  *
- * @see  	https://developer.wordpress.org/block-editor/developers/block-api/block-edit-save/#edit
- * @param   {Object}    props 	    	Block meta-data properties.
- * @return 	{WPElement}             	Element to render.
+ * @see       https://developer.wordpress.org/block-editor/developers/block-api/block-edit-save/#edit
+ * @param     {Object}      props    Block meta-data properties.
+ * @return    {WPElement}            Element to render.
  */
 function Edit( props ) {
 	const isStillMounted = useRef();

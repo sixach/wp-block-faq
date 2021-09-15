@@ -8,7 +8,8 @@
 		"faq",
 		"questions",
 		"answers",
-		"accordion"
+		"accordion",
+		"frequently asked questions"
 	],
 	"supports": {
 		"html": false

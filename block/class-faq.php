@@ -19,18 +19,7 @@ use Sixa_Snippets\Dashboard\Post_Type as Post_Type;
 /**
  * Block Class FAQ
  */
-class FAQ {
-
-	/**
-	 * Initialize the block.
-	 * Set up the WordPress hook to register the block.
-	 *
-	 * @since     1.0.0
-	 * @return    void
-	 */
-	public static function init(): void {
-		add_action( 'init', array( __CLASS__, 'register' ) );
-	}
+final class FAQ extends Block {
 
 	/**
 	 * Registers the block using the metadata loaded from the `block.json` file.

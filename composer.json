@@ -18,9 +18,14 @@
 	],
 	"require": {
 		"php": ">=7.2",
-		"sixach/wp-snippets": "^1.2.0"
+		"sixach/wp-snippets": "^1.2.0",
+		"sixach/wp-block-api": "^1.0.0"
 	},
 	"repositories": [
+		{
+			"type": "vcs",
+			"url":  "git@github.com:sixach/wp-block-api.git"
+		},
 		{
 		  "type": "vcs",
 		  "url":  "git@github.com:sixach/wp-snippets.git"

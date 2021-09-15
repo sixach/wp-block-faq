@@ -40,8 +40,6 @@ final class FAQ extends Block {
 		);
 	}
 
-
-
 	/**
 	 * Renders the `sixa/faq` block on server.
 	 *

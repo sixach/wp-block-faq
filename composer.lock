@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d968d1e3a673782482706c4a760ef643",
+    "content-hash": "8e30142398e0e2e2250b6a9574e669f8",
     "packages": [
         {
             "name": "sixach/wp-block-api",
@@ -2246,7 +2246,7 @@
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
-        "php": ">=7.2"
+        "php": ">=7.3"
     },
     "platform-dev": [],
     "plugin-api-version": "2.0.0"

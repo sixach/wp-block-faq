@@ -7,7 +7,7 @@
  * Description:          FAQ block for WordPress editor.
  * Version:              1.1.0
  * Requires at least:    5.7
- * Requires PHP:         7.4
+ * Requires PHP:         7.3
  * Author:               sixa AG
  * License:              GPL v3 or later
  * License URI:          https://www.gnu.org/licenses/gpl-3.0.html

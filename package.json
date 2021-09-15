@@ -1,7 +1,7 @@
 {
 	"name": "@sixach/wp-block-faq",
 	"version": "1.1.0",
-	"description": "FAQ block for WordPress editor.",
+	"description": "Display Frequently Asked Questions in an accordion on your website.",
 	"keywords": [
 		"faq",
 		"questions",

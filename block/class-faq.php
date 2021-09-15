@@ -41,7 +41,7 @@ final class FAQ extends Block {
 	}
 
 	/**
-	 * Renders the `sixa/faq` block on server.
+	 * Renders the `sixa/faq` block on the server.
 	 *
 	 * @since     1.0.0
 	 * @param     array $attributes    The block attributes.

@@ -64,7 +64,7 @@ final class FAQ extends Block {
 	/**
 	 * Registers the custom post-type required for this block.
 	 *
-	 * @see 	  https://sixach.github.io/sixa-wp-snippets/#/dashboard/post-type
+	 * @see       https://sixach.github.io/sixa-wp-snippets/#/dashboard/post-type
 	 * @since     1.0.0
 	 * @return    void
 	 */

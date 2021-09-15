@@ -3,7 +3,6 @@
 	"name": "sixa/faq",
 	"title": "FAQ",
 	"category": "widgets",
-	"icon": "editor-help",
 	"description": "FAQ block for WordPress editor.",
 	"keywords": [
 		"faq",

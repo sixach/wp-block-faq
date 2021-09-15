@@ -20,6 +20,11 @@ import './style.scss';
 import Edit from './edit';
 
 /**
+ * Icon
+ */
+import icon from './icon';
+
+/**
  * Every block starts by registering a new block type definition.
  *
  * @see https://developer.wordpress.org/block-editor/developers/block-api/#registering-a-block
@@ -29,6 +34,13 @@ registerBlockType( 'sixa/faq', {
 	 * @see https://make.wordpress.org/core/2020/11/18/block-api-version-2/
 	 */
 	apiVersion: 2,
+
+	/**
+	 * Use an icon from `@sixach/icon-library`.
+	 *
+	 * @see https://github.com/sixach/icon-library
+	 */
+	icon,
 
 	/**
 	 * @see ./edit.js

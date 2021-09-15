@@ -17,7 +17,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
-if ( ! class_exists( 'Loop' ) ) :
+if ( ! class_exists( Loop::class ) ) :
 
 	/**
 	 * The FAQ loop class.

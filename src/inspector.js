@@ -16,7 +16,7 @@ import { isNonEmptyArray } from '@sixa/wp-block-utils';
 /**
  * Retrieves the translation of text.
  *
- * @see https://developer.wordpress.org/block-editor/packages/packages-i18n/
+ * @see    https://developer.wordpress.org/block-editor/packages/packages-i18n/
  */
 import { __ } from '@wordpress/i18n';
 
@@ -24,7 +24,7 @@ import { __ } from '@wordpress/i18n';
  * React hook that is used to mark the block wrapper element.
  * It provides all the necessary props like the class name.
  *
- * @see https://developer.wordpress.org/block-editor/packages/packages-block-editor/#useBlockProps
+ * @see    https://developer.wordpress.org/block-editor/packages/packages-block-editor/#useBlockProps
  */
 import { InspectorControls } from '@wordpress/block-editor';
 
@@ -39,14 +39,14 @@ import { PanelBody, QueryControls } from '@wordpress/components';
 /**
  * Inspector Controls appear in the post settings sidebar when a block is being edited.
  *
- * @see  	https://github.com/WordPress/gutenberg/blob/master/packages/block-editor/src/components/inspector-controls/README.md
- * @param   {Object}    props 					    Block meta-data properties.
- * @param   {Object}    props.attributes 		    Block attributes.
- * @param   {Function}  props.setAttributes 	    Updates block attributes.
- * @param   {Array}  	props.postOptions 			List of FAQ post options.
- * @param   {Array}  	props.termOptions 			List of FAQ post category options.
- * @param   {number}  	props.maxLimit 	    		Maximum number of items shown on each query.
- * @return 	{WPElement} 						    Toolbar element to render.
+ * @see       https://github.com/WordPress/gutenberg/blob/master/packages/block-editor/src/components/inspector-controls/README.md
+ * @param     {Object}        props                  Block meta-data properties.
+ * @param     {Object}        props.attributes       Block attributes.
+ * @param     {Function}      props.setAttributes    Updates block attributes.
+ * @param     {Array}         props.postOptions      List of FAQ post options.
+ * @param     {Array}         props.termOptions      List of FAQ post category options.
+ * @param     {number}        props.maxLimit         Maximum number of items shown on each query.
+ * @return    {WPElement}                            Toolbar element to render.
  */
 export default function Inspector( { attributes, setAttributes, postOptions, termOptions, maxLimit } ) {
 	const { ids, limit, category, order, orderby } = attributes;

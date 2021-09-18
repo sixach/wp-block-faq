@@ -2,8 +2,12 @@
 /**
  * FAQ loop class.
  *
- * @since           1.0.0
- * @package         sixa/includes
+ * @link          https://sixa.ch
+ * @author        sixa AG
+ * @since         1.0.0
+ *
+ * @package       Sixa_Blocks
+ * @subpackage    Sixa_Blocks\FAQ\Includes
  */
 
 namespace Sixa_Blocks\FAQ\Includes;
@@ -13,7 +17,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
-if ( ! class_exists( 'Loop' ) ) :
+if ( ! class_exists( Loop::class ) ) :
 
 	/**
 	 * The FAQ loop class.

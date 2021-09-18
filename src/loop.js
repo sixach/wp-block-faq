@@ -18,13 +18,13 @@ import classnames from 'classnames';
  * Using The Loop, the block processes each product to be displayed on the current page,
  * and formats it according to how it matches specified criteria within The Loop tags.
  *
- * @see  	http://reactjs.org/docs/react-api.html#overview
- * @param   {Object}    props 	    				Block meta-data properties.
- * @param   {string}    props.className 	    	CSS class name(s) assigned to the wrapper element.
- * @param   {Array}    	props.query 	    		Product categories query/API response.
- * @param   {string}    props.instanceId 	    	Unique ID of parent component.
- * @param   {Object}    props.styles 	    		Scoped CSS module styles.
- * @return 	{WPElement}             				Element to render.
+ * @see       http://reactjs.org/docs/react-api.html#overview
+ * @param     {Object}       props               Block meta-data properties.
+ * @param     {string}       props.className     CSS class name(s) assigned to the wrapper element.
+ * @param     {Array}        props.query         Product categories query/API response.
+ * @param     {string}       props.instanceId    Unique ID of parent component.
+ * @param     {Object}       props.styles        Scoped CSS module styles.
+ * @return    {WPElement}                        Element to render.
  */
 export default function Loop( { className, query, instanceId, styles } ) {
 	return map( query, ( post ) => (

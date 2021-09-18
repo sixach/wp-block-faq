@@ -1,7 +1,7 @@
 {
 	"name": "@sixach/wp-block-faq",
 	"version": "1.1.0",
-	"description": "FAQ block for WordPress editor.",
+	"description": "Display Frequently Asked Questions in an accordion on your website.",
 	"keywords": [
 		"faq",
 		"questions",
@@ -31,7 +31,8 @@
 		"lint:php": "composer lint:php",
 		"lint:wpcs": "composer lint:wpcs",
 		"lint:wpcs-fix": "composer lint:wpcbf",
-		"packages-update": "wp-scripts packages-update"
+		"packages-update": "wp-scripts packages-update",
+		"prepare": "husky install"
 	},
 	"lint-staged": {
 		"*.css": [
@@ -46,25 +47,26 @@
 		]
 	},
 	"dependencies": {
+		"@sixach/icon-library": "^1.1.0",
 		"@sixach/wp-block-components": "^1.4.2",
-		"@wordpress/api-fetch": "^5.2.1",
-		"@wordpress/block-editor": "^7.0.1",
-		"@wordpress/blocks": "^11.0.1",
-		"@wordpress/components": "^16.0.0",
-		"@wordpress/compose": "^5.0.1",
-		"@wordpress/data": "^6.0.1",
+		"@wordpress/api-fetch": "^5.2.2",
+		"@wordpress/block-editor": "^7.0.2",
+		"@wordpress/blocks": "^11.1.0",
+		"@wordpress/components": "^17.0.0",
+		"@wordpress/compose": "^5.0.2",
+		"@wordpress/data": "^6.1.0",
 		"@wordpress/dom-ready": "^3.2.1",
-		"@wordpress/element": "^4.0.0",
+		"@wordpress/element": "^4.0.1",
 		"@wordpress/escape-html": "^2.2.1",
 		"@wordpress/hooks": "^3.2.0",
-		"@wordpress/i18n": "^4.2.1",
-		"@wordpress/icons": "^5.0.1",
-		"@wordpress/primitives": "^3.0.0",
-		"@wordpress/url": "^3.2.1"
+		"@wordpress/i18n": "^4.2.2",
+		"@wordpress/icons": "^5.0.2",
+		"@wordpress/primitives": "^3.0.1",
+		"@wordpress/url": "^3.2.2"
 	},
 	"devDependencies": {
 		"@sixa/wp-block-utils": "^1.0.3",
-		"@wordpress/scripts": "18.0.0",
+		"@wordpress/scripts": "18.0.1",
 		"classnames": "2.3.1",
 		"husky": "^7.0.2",
 		"lint-staged": "11.1.2",

@@ -2,8 +2,12 @@
 /**
  * The template for displaying FAQ post item within loops.
  *
- * @since       1.0.0
- * @package     sixa
+ * @link          https://sixa.ch
+ * @author        sixa AG
+ * @since         1.0.0
+ *
+ * @package       Sixa_Blocks
+ * @subpackage    Sixa_Blocks\FAQ\Templates
  * @phpcs:disable WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedHooknameFound, WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedVariableFound
  */
 

@@ -3,13 +3,13 @@
 	"name": "sixa/faq",
 	"title": "FAQ",
 	"category": "widgets",
-	"icon": "editor-help",
-	"description": "FAQ block for WordPress editor.",
+	"description": "Display Frequently Asked Questions in an accordion on your website.",
 	"keywords": [
 		"faq",
 		"questions",
 		"answers",
-		"accordion"
+		"accordion",
+		"frequently asked questions"
 	],
 	"supports": {
 		"html": false

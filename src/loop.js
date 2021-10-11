@@ -6,7 +6,7 @@ import { get, map } from 'lodash';
 /**
  * Helper React components specific for Sixa projects.
  */
-import { PrintHTML } from '@sixach/wp-block-components';
+import { PrintHTML } from '@sixa/wp-block-components';
 
 /**
  * Utility for conditionally joining CSS class names together.

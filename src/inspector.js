@@ -6,7 +6,7 @@ import { noop } from 'lodash';
 /**
  * Helper React components specific for Sixa projects.
  */
-import { MultiSelect } from '@sixach/wp-block-components';
+import { MultiSelect } from '@sixa/wp-block-components';
 
 /**
  * Utility helper methods specific for Sixa projects.

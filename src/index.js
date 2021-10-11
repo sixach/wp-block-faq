@@ -36,7 +36,7 @@ registerBlockType( 'sixa/faq', {
 	apiVersion: 2,
 
 	/**
-	 * Use an icon from `@sixach/icon-library`.
+	 * Use an icon from `@sixa/icon-library`.
 	 *
 	 * @see    https://github.com/sixach/icon-library
 	 */

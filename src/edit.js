@@ -6,7 +6,7 @@ import { get, set, isArray, slice, assign, map, find, pick } from 'lodash';
 /**
  * Helper React components specific for Sixa projects.
  */
-import { Loading } from '@sixach/wp-block-components';
+import { Loading } from '@sixa/wp-block-components';
 
 /**
  * Utility helper methods specific for Sixa projects.

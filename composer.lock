@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d159c8e1b99d0c258525d0cbbc4c9b97",
+    "content-hash": "e8c17894875335418562bad5b180d453",
     "packages": [
         {
             "name": "sixach/wp-block-api",
@@ -72,16 +72,16 @@
         },
         {
             "name": "sixach/wp-snippets",
-            "version": "v1.3.0",
+            "version": "v1.4.2",
             "source": {
                 "type": "git",
-                "url": "git@github.com:sixach/wp-snippets.git",
-                "reference": "80c1f819476cc289d96f891a063b92dc4aedc366"
+                "url": "https://github.com/sixach/wp-snippets.git",
+                "reference": "9cf6dbaa9857e4829aaea01ea26d2b5e34eda033"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sixach/wp-snippets/zipball/80c1f819476cc289d96f891a063b92dc4aedc366",
-                "reference": "80c1f819476cc289d96f891a063b92dc4aedc366",
+                "url": "https://api.github.com/repos/sixach/wp-snippets/zipball/9cf6dbaa9857e4829aaea01ea26d2b5e34eda033",
+                "reference": "9cf6dbaa9857e4829aaea01ea26d2b5e34eda033",
                 "shasum": ""
             },
             "require": {
@@ -91,7 +91,7 @@
                 "dealerdirect/phpcodesniffer-composer-installer": "^0.7.1",
                 "php-parallel-lint/php-parallel-lint": "^1.2.0",
                 "phpcompatibility/phpcompatibility-wp": "^2.1",
-                "phpunit/phpunit": "^7",
+                "phpunit/phpunit": "^9",
                 "woocommerce/woocommerce-git-hooks": "*",
                 "woocommerce/woocommerce-sniffs": "*",
                 "wp-cli/i18n-command": "^2.2.6",
@@ -114,7 +114,7 @@
                     "@php ./vendor/bin/parallel-lint --exclude .git --exclude vendor --exclude node_modules ."
                 ],
                 "make-pot": [
-                    "wp i18n make-pot . languages/@@textdomain.pot --exclude=build"
+                    "wp i18n make-pot . languages/sixa-snippets.pot --exclude=build"
                 ]
             },
             "license": [
@@ -133,10 +133,10 @@
                 "WordPress"
             ],
             "support": {
-                "source": "https://github.com/sixach/wp-snippets/tree/v1.3.0",
+                "source": "https://github.com/sixach/wp-snippets/tree/v1.4.2",
                 "issues": "https://github.com/sixach/wp-snippets/issues"
             },
-            "time": "2021-09-14T15:31:04+00:00"
+            "time": "2021-11-15T09:16:46+00:00"
         }
     ],
     "packages-dev": [

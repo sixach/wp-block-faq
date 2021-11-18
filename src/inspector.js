@@ -54,7 +54,7 @@ export default function Inspector( { attributes, setAttributes, postOptions, ter
 
 	return (
 		<InspectorControls>
-			<PanelBody initialOpen title={ __( 'Query Settings', 'sixa' ) }>
+			<PanelBody initialOpen title={ __( 'Query Settings', 'sixa-block-faq' ) }>
 				<QueryControls
 					order={ order }
 					orderBy={ orderby }

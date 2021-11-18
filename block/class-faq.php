@@ -80,8 +80,8 @@ if ( ! class_exists( FAQ::class ) ) :
 						'sixa_faq_block_register_post_type_args',
 						array(
 							'key'           => apply_filters( 'sixa_faq_block_post_type', 'faq-item' ),
-							'singular_name' => __( 'FAQ Item', 'sixa' ),
-							'plural_name'   => __( 'FAQ Items', 'sixa' ),
+							'singular_name' => __( 'FAQ Item', 'sixa-block-faq' ),
+							'plural_name'   => __( 'FAQ Items', 'sixa-block-faq' ),
 							'args'          => apply_filters(
 								'sixa_faq_block_post_type_args',
 								array(

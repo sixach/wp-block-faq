@@ -18,7 +18,7 @@
     <arg value="ps" />
     <!-- Strip the filepaths down to the relevant bit. -->
     <arg name="basepath" value="./" />
-    <!-- Check up to 8 files simultanously. -->
+    <!-- Check up to 8 files simultaneously. -->
     <arg name="parallel" value="8" />
     <!-- Only check the PHP files. JS, and CSS files are checked separately with npm packages. -->
     <arg name="extensions" value="php" />
@@ -30,15 +30,14 @@
     <exclude-pattern>*/languages/*</exclude-pattern>
     <exclude-pattern>*/build/*</exclude-pattern>
     <exclude-pattern>*/src/*</exclude-pattern>
+    <exclude-pattern>/index\.php</exclude-pattern>
     <!--
     #############################################################################
     USE THE WordPress AND THE Theme Review RULESET
     #############################################################################
     -->
     <!-- Include the WordPress ruleset, with select exclusions. -->
-    <rule ref="WordPress">
-        <exclude name="WordPress.NamingConventions.PrefixAllGlobals.ShortPrefixPassed" />
-    </rule>
+    <rule ref="WordPress" />
     <!-- Let's also check that everything is properly documented. -->
     <rule ref="WordPress-Docs" />
     <!--
@@ -50,7 +49,7 @@
          Multiple valid text domains can be provided as a comma-delimited list. -->
     <rule ref="WordPress.WP.I18n">
         <properties>
-            <property name="text_domain" type="array" value="sixa" />
+            <property name="text_domain" type="array" value="sixa-block-faq" />
         </properties>
     </rule>
     <!-- Set the minimum supported WP version. This is used by several sniffs.
@@ -65,11 +64,6 @@
             <property name="alignMultilineItems" value="!=100" />
             <!-- Array assignment operator should always be on the same line as the array key. -->
             <property name="ignoreNewlines" value="false" />
-        </properties>
-    </rule>
-    <rule ref="WordPress.Security.EscapeOutput">
-        <properties>
-            <property name="customEscapingFunctions" type="array" value="wp_filter_post_kses" />
         </properties>
     </rule>
     <!-- Verify that everything in the global namespace is prefixed with a theme specific prefix.

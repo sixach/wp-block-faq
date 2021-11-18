@@ -133,7 +133,7 @@ function Edit( props ) {
 				setState( ( state ) => assign( {}, state, { termOptions: map( data, ( term ) => pick( term, [ 'id', 'name', 'parent' ] ) ) } ) );
 			} )
 			.catch( () => {
-				createErrorNotice( __( 'Could not load faq categories.', 'sixa' ), noticeProps );
+				createErrorNotice( __( 'Could not load faq categories.', 'sixa-block-faq' ), noticeProps );
 			} );
 	}, [] );
 
@@ -152,7 +152,7 @@ function Edit( props ) {
 			.catch( () => {
 				if ( isStillMounted.current ) {
 					setWpQuery( [] );
-					createErrorNotice( __( 'Could not load faq posts.', 'sixa' ), noticeProps );
+					createErrorNotice( __( 'Could not load faq posts.', 'sixa-block-faq' ), noticeProps );
 				}
 			} );
 
@@ -161,15 +161,18 @@ function Edit( props ) {
 
 	return (
 		<div { ...blockProps }>
-			{ ! isArray( wpQuery ) || ! get( isStillMounted, 'current' ) ? (
-				<Loading label={ __( 'Fetching…', 'sixa' ) } />
-			) : havePosts ? (
-				<Loop className={ className } instanceId={ instanceId } query={ slicedQuery } styles={ styles } />
-			) : (
-				<Notice status="warning" className={ get( styles, 'notice' ) } isDismissible={ false }>
-					{ __( 'No F.A.Q posts found to display.', 'sixa' ) }
-				</Notice>
-			) }
+			{
+				/* eslint-disable-next-line no-nested-ternary */
+				! isArray( wpQuery ) || ! get( isStillMounted, 'current' ) ? (
+					<Loading label={ __( 'Fetching…', 'sixa-block-faq' ) } />
+				) : havePosts ? (
+					<Loop className={ className } instanceId={ instanceId } query={ slicedQuery } styles={ styles } />
+				) : (
+					<Notice status="warning" className={ get( styles, 'notice' ) } isDismissible={ false }>
+						{ __( 'No F.A.Q posts found to display.', 'sixa-block-faq' ) }
+					</Notice>
+				)
+			}
 			{ isSelected && <Inspector { ...props } maxLimit={ maxLimit } /> }
 		</div>
 	);

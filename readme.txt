@@ -56,10 +56,12 @@ Automatic updates should work smoothly, but we still recommend you back up your 
 
 = How do I use the block? =
 1. Log in to your WordPress website and navigate to the Dashboard.
-2. Create a new page by visiting *Pages* > *Add new* or open an existing page in *Pages*.
-3. Click on the Block Inserter button in the top left and click on the *FAQ* block in the *Widgets* section. Alternatively, you may start typing `/faq` in a new paragraph block and press enter.
-4. Once you’ve inserted the block, you can use the block settings sidebar to configure the order of the posts. Alternatively, you may also filter the posts by category or manually select the posts that you wish to display.
-5. Publish the page.
+2. Create new FAQ items by visiting *FAQ Items* > *Add new*.
+3. Add the title of your FAQ in the title of the post and add the content of your FAQ answer in the body of the editor. The post type supports simple text but also any other block such as images or videos.
+4. Create a new page by visiting *Pages* > *Add new* or open an existing page in *Pages*.
+5. Click on the Block Inserter button in the top left and click on the *FAQ* block in the *Widgets* section. Alternatively, you may start typing `/faq` in a new paragraph block and press enter.
+6. Once you’ve inserted the block, you can use the block settings sidebar to configure the order of the posts. Alternatively, you may also filter the posts by category or manually select the posts that you wish to display.
+7. Publish the page.
 
 = How do I get help with the plugin? =
 The easiest way to receive support is to “Create a new topic” by visiting the [Community Forums page](https://wordpress.org/support/plugin/sixa-faq-block "Sixa FAQ Block Support Forum").
@@ -86,6 +88,7 @@ If you need professional support for this or any other WordPress project, please
 == Screenshots ==
 
 1. Add "FAQ" block
+2. Add an FAQ item
 
 == Changelog ==
 = 1.0.0 =

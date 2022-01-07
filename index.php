@@ -3,7 +3,7 @@
  * F.A.Q Block.
  *
  * @wordpress-plugin
- * Plugin Name:          Sixa - F.A.Q Block
+ * Plugin Name:          Sixa - FAQ Block
  * Description:          FAQ block for WordPress editor.
  * Version:              1.0.0
  * Requires at least:    5.7

@@ -10,6 +10,7 @@
 .prettierrc.js
 .stylelintignore
 .stylelintrc.js
+.wordpress-org
 composer.json
 composer.lock
 docs

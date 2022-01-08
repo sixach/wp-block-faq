@@ -6,6 +6,12 @@
 import { registerBlockType } from '@wordpress/blocks';
 
 /**
+ * Internal dependencies
+ */
+import Edit from './Edit';
+import Icon from './Icon';
+
+/**
  * Lets webpack process CSS, SASS or SCSS files referenced in JavaScript files.
  * All files containing `style` keyword are bundled together. The code used
  * gets applied both to the front of your site and to the editor.
@@ -13,16 +19,6 @@ import { registerBlockType } from '@wordpress/blocks';
  * @see    https://www.npmjs.com/package/@wordpress/scripts#using-css
  */
 import './style.scss';
-
-/**
- * Internal dependencies
- */
-import Edit from './edit';
-
-/**
- * Icon
- */
-import icon from './icon';
 
 /**
  * Every block starts by registering a new block type definition.
@@ -36,14 +32,12 @@ registerBlockType( 'sixa/faq', {
 	apiVersion: 2,
 
 	/**
-	 * Use an icon from `@sixa/icon-library`.
-	 *
-	 * @see    https://github.com/sixach/icon-library
-	 */
-	icon,
-
-	/**
 	 * @see    ./edit.js
 	 */
 	edit: Edit,
+
+	/**
+	 * @see    ./Icon.js
+	 */
+	icon: Icon,
 } );

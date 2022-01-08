@@ -4,8 +4,11 @@
 import { faq } from '@sixa/icon-library';
 
 /**
- * Helper React components specific for Sixa projects.
+ * This packages includes a library of generic WordPress components to be used for
+ * creating common UI elements shared between screens and features of the WordPress dashboard.
+ *
+ * @see    https://developer.wordpress.org/block-editor/reference-guides/packages/packages-components/
  */
 import { GenerateSvgPaths } from '@sixa/wp-block-components';
 
-export default <GenerateSvgPaths paths={ faq.paths } withSvgWrapper />;
+export default <GenerateSvgPaths paths={ faq?.paths } withSvgWrapper />;

@@ -15,6 +15,10 @@
 		"html": false
 	},
 	"attributes": {
+		"category": {
+			"type": "string",
+			"default": ""
+		},
 		"ids": {
 			"type": "array",
 			"default": []
@@ -22,10 +26,6 @@
 		"limit": {
 			"type": "number",
 			"default": 3
-		},
-		"category": {
-			"type": "string",
-			"default": ""
 		},
 		"order": {
 			"type": "string",
@@ -38,6 +38,5 @@
 	},
 	"textdomain": "sixa-wp-block-faq",
 	"editorScript": "file:./build/index.js",
-	"editorStyle": "file:./build/index.css",
 	"style": "file:./build/style-index.css"
 }

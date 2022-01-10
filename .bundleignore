@@ -10,6 +10,7 @@
 .prettierrc.js
 .stylelintignore
 .stylelintrc.js
+.eslintrc.js
 .wordpress-org
 composer.json
 composer.lock
@@ -19,6 +20,7 @@ package.json
 package-lock.json
 phpcs.xml.dist
 renovate.json
+babel.config.js
 README.md
 /src
 *.zip

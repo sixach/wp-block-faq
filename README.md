@@ -1,13 +1,8 @@
+<!-- only:github/ -->
 # FAQ Block
 
-Display Frequently Asked Questions (FAQs) in an accordion on your website. Add, store, and maintain your FAQs in a custom post type and create categories to group your FAQs. Order your FAQs alphabetically or by their creation date and automatically include newly created FAQ items in the block output. Filter the FAQ posts that should be displayed by category. You may also set FAQ items to display and the order in which they should be displayed manually.
-
-## Requirements
-
-* PHP version 7.2 or greater.
-* MySQL version 5.6 or greater OR MariaDB version 10.0 or greater.
-* WordPress version 5.6 or greater.
-
+<!-- /only:github -->Display Frequently Asked Questions (FAQs) in an accordion on your website. Add, store, and maintain your FAQs in a custom post type and create categories to group your FAQs. Order your FAQs alphabetically or by their creation date and automatically include newly created FAQ items in the block output. Filter the FAQ posts that should be displayed by category. You may also set FAQ items to display and the order in which they should be displayed manually.
+<!-- only:github/ -->
 ## Development
 
 You'll need [Node.js](https://nodejs.org/) and [Composer](https://getcomposer.org/) installed
@@ -24,7 +19,7 @@ on your computer in order to build this plugin.
 * Run `npm install` to install NPM dependencies
 * Run `npm run build` to compile assets for production
 * Run `composer install --no-dev --optimize-autoloader` to install composer packages required in production
-
+<!-- /only:github -->
 ### Features
 
 * Custom FAQ post type
@@ -52,7 +47,7 @@ on your computer in order to build this plugin.
 
 Automatic installation is the easiest option — WordPress will handle the file transfer, and you won’t need to leave your web browser. To do an automatic install of the plugin, log in to your WordPress dashboard, navigate to the Plugins menu, and click “Add New.”
 
-In the search field type “Block Data Attribute”, then click “Search Plugins.” Once you’ve found the plugin, you can view details about it such as the point release, rating, and description. Click “Install Now,” and WordPress will take it from there.
+In the search field type “Block Data Attribute”, then click “Search Plugins”. Once you’ve found the plugin, you can view details about it such as the point release, rating, and description. Click “Install Now”, and WordPress will take it from there.
 
 ### Manual installation
 

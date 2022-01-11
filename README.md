@@ -1,6 +1,8 @@
 <!-- only:github/ -->
 # FAQ Block
 
+![Sixa FAQ Block](https://ps.w.org/sixa-faq-block/assets/banner-772x250.jpg?rev=2655896)
+
 <!-- /only:github -->Display Frequently Asked Questions (FAQs) in an accordion on your website. Add, store, and maintain your FAQs in a custom post type and create categories to group your FAQs. Order your FAQs alphabetically or by their creation date and automatically include newly created FAQ items in the block output. Filter the FAQ posts that should be displayed by category. You may also set FAQ items to display and the order in which they should be displayed manually.
 <!-- only:github/ -->
 ## Development

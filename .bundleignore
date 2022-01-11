@@ -1,4 +1,5 @@
 .bundleignore
+.eslintrc.js
 .git
 .github
 .DS_Store
@@ -11,6 +12,7 @@
 .stylelintignore
 .stylelintrc.js
 .wordpress-org
+babel.config.js
 composer.json
 composer.lock
 docs
@@ -22,3 +24,4 @@ renovate.json
 README.md
 /src
 *.zip
+svn

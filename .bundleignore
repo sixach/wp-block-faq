@@ -24,3 +24,4 @@ renovate.json
 README.md
 /src
 *.zip
+svn

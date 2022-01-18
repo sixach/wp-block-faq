@@ -5,6 +5,7 @@
 .editorconfig
 .gitattributes
 .gitignore
+.npmignore
 .husky
 .idea
 .prettierrc.js
@@ -21,6 +22,7 @@ package-lock.json
 phpcs.xml.dist
 renovate.json
 babel.config.js
+postcss.config.js
 README.md
 /src
 *.zip

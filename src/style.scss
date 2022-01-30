@@ -32,6 +32,10 @@ $prefix: sixa;
 		[open] > &::after {
 			transform: rotate(180deg);
 		}
+
+		&::-webkit-details-marker {
+			display: none;
+		}
 	}
 
 	&__content {

@@ -18,7 +18,7 @@
 	],
 	"require": {
 		"php": ">=7.4",
-		"sixach/wp-snippets": "^1.4.3",
+		"sixach/wp-snippets": "^1.7.2",
 		"sixach/wp-block-api": "^1.0.2"
 	},
 	"require-dev": {

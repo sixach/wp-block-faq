@@ -91,9 +91,15 @@ If you need professional support for this or any other WordPress project, please
 2. Add an FAQ item
 
 == Changelog ==
+= 1.0.1 =
+* Maintenance release for sixa blocks compatibility
+
 = 1.0.0 =
 * Initial release
 
 == Upgrade Notice ==
+= 1.0.1 =
+This release includes an update to the sixa libraries used in this block. This ensure compatibility with other blocks.
+
 = 1.0.0 =
 Initial version of sixa FAQ Block.

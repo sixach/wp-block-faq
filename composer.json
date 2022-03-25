@@ -37,5 +37,10 @@
 	},
 	"autoload": {
 		"classmap": [ "block" ]
+	},
+	"config": {
+		"allow-plugins": {
+			"dealerdirect/phpcodesniffer-composer-installer": true
+		}
 	}
 }

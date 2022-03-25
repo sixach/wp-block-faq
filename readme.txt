@@ -3,8 +3,8 @@ Contributors: sixa, mahdiyazdani, gookaani, kuserich
 Donate link: https://sixa.com/
 Tags: faq, questions, answers, accordion, block, gutenberg, sixa
 Requires at least: 5.7
-Tested up to: 5.8
-Stable tag: 1.0.0
+Tested up to: 5.9
+Stable tag: 1.0.1
 Requires PHP: 7.3
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
@@ -71,7 +71,7 @@ Make sure to check the “Notify me of follow-up replies via email” checkbox t
 = Can I help translating this plugin into a new language? =
 The plugin is fully translation-ready and localized using the GNU framework. Translators are welcome to contribute to the plugin.
 
-Here’s the the [WordPress translation website &#8594;](https://translate.wordpress.org/projects/wp-plugins/sixa-faq-block "WordPress translation website")
+Here’s the [WordPress translation website &#8594;](https://translate.wordpress.org/projects/wp-plugins/sixa-faq-block "WordPress translation website")
 
 = How do I contribute to this plugin? =
 We welcome contributions of any form and you can help reporting, testing, and detailing bugs.
@@ -91,9 +91,15 @@ If you need professional support for this or any other WordPress project, please
 2. Add an FAQ item
 
 == Changelog ==
+= 1.0.1 =
+* Maintenance release for sixa blocks compatibility
+
 = 1.0.0 =
 * Initial release
 
 == Upgrade Notice ==
+= 1.0.1 =
+This release includes an update to the sixa libraries used in this block. This ensure compatibility with other blocks.
+
 = 1.0.0 =
 Initial version of sixa FAQ Block.

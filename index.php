@@ -5,7 +5,7 @@
  * @wordpress-plugin
  * Plugin Name:          Sixa - FAQ Block
  * Description:          FAQ block for WordPress editor.
- * Version:              1.0.0
+ * Version:              1.0.1
  * Requires at least:    5.7
  * Requires PHP:         7.3
  * Author:               sixa AG

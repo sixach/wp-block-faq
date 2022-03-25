@@ -3,7 +3,7 @@ Contributors: sixa, mahdiyazdani, gookaani, kuserich
 Donate link: https://sixa.com/
 Tags: faq, questions, answers, accordion, block, gutenberg, sixa
 Requires at least: 5.7
-Tested up to: 5.8
+Tested up to: 5.9
 Stable tag: 1.0.0
 Requires PHP: 7.3
 License: GPLv3 or later
